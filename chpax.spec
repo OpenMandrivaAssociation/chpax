@@ -27,7 +27,7 @@ kernel-secure package, for this program to have any effect.
 %build 
 aclocal-1.7
 autoheader-2.5x
-autoconf-2.5x
+autoconf
 automake-1.7 --foreign -a
 %configure 
 %make
