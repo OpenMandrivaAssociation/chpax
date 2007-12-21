@@ -10,6 +10,7 @@ Source0:	%{name}-%{version}.tar.bz2
 Patch0:		%{name}-0.7-autotools.patch.bz2
 URL:		http://pax.grsecurity.net/
 Group:		System/Configuration/Other
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	Public Domain
 BuildRequires:	autoconf2.5 automake1.7
 
