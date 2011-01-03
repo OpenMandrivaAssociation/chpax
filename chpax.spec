@@ -1,6 +1,6 @@
 %define name	chpax
 %define version	0.7
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name:		%{name}
 Summary:	Tool that allows PaX flags to be modified on a per-binary basis
@@ -12,7 +12,7 @@ URL:		http://pax.grsecurity.net/
 Group:		System/Configuration/Other
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	Public Domain
-BuildRequires:	autoconf2.5 automake1.7
+BuildRequires:	autoconf2.5 automake
 
 %description
 A tool that allows PaX flags to be modified on a per-binary basis. PaX is part
@@ -25,10 +25,10 @@ kernel-secure package, for this program to have any effect.
 %patch0 -p1 -b .autotools
 
 %build 
-aclocal-1.7
+aclocal
 autoheader
 autoconf
-automake-1.7 --foreign -a
+automake --foreign -a
 %configure 
 %make
 
