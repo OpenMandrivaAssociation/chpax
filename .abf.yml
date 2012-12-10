@@ -1,2 +1,3 @@
 sources:
-  "chpax-0.7.tar.bz2:"	8264de363faf2a13bf1a7f2fa9aa2ee73f6b1b34
+  "chpax-0.7-autotools.patch.bz2": 3b54eed622bfbaaa6deb806d985ee547595f9fc2
+  "chpax-0.7.tar.bz2": 8264de363faf2a13bf1a7f2fa9aa2ee73f6b1b34
