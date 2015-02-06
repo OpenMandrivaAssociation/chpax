@@ -1,6 +1,6 @@
 %define name	chpax
 %define version	0.7
-%define release %mkrel 7
+%define release 8
 
 Name:		%{name}
 Summary:	Tool that allows PaX flags to be modified on a per-binary basis
